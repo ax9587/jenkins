@@ -5,3 +5,16 @@
    alex
    abc123
    http://localhost:8080/
+
+# https://www.youtube.com/watch?v=Ojb9Rh0BcvA
+
+# WSL ubuntu
+
+command line, type ubuntu to goto ubuntu
+
+# https://www.coachdevops.com/2023/05/how-to-deploy-springboot-microservices_13.html
+
+# Jenkins
+Pipeline Syntax -> checkout -> Generate Script
+
+

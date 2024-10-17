@@ -7,9 +7,9 @@ pipeline {
                 checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/ax9587/jenkins']])
             }
         }
-        stage('Build') {
+        stage('Build Jar') {
             steps {
-                echo 'Building..'
+                sh "maven clean install"
             }
         }
         stage('Test') {

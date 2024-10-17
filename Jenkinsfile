@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Code) {
+        stage('Clone Code') {
             steps {
                 checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/ax9587/jenkins']])
             }
